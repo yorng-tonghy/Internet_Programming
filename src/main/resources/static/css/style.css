@@ -5,18 +5,5 @@
 }
 
 body{
-    display: flex;
-    justify-content: space-around;
-    color: rgb(11, 11, 10);
-    background-color: rgb(224, 230, 223);
-    height: 50px;
-    width: 100%;
-    align-items: center;
     font-family: 'Inter', sans-serif;
-    
-
-}
-h1{
-   
-    
 }
