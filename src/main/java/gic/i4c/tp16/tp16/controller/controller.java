@@ -30,19 +30,12 @@ public class controller {
     public ModelAndView task4(){
         return new ModelAndView("task4");
     }
-    @GetMapping(path="/tp16/task5")
+    
    
+    @GetMapping(path = "/tp16/task5")
     public ModelAndView task5(){
-        ModelAndView mnv =new ModelAndView("task5");
-        mnv.addObject("username", "Tonghy");
-        return mnv;
+        return new ModelAndView("task5");
     }
-    // @RequestMapping(value="/tp16/task5", method=RequestMethod.POST)
-    // public String resTask5(@RequestParam String email,@RequestParam String password){
-    //     if(email.equals("tonghy")&&password.equals("123456")){
-    //         return "tonghy && 123456";
-    //     }
-    //     return "hello";
-    // }
+   
 
 }
